@@ -1,0 +1,39 @@
+[project]
+name = "trident-cli"
+version = "1.0.0"
+description = "Sovereign Kubernetes repair, diagnostics, and identity CLI."
+readme = "README.md"
+license = { file = "LICENSE.md" }
+authors = [
+    { name = "Marlon Ástin Williams" }
+]
+requires-python = ">=3.10"
+
+# Hardened deps with sane minimums
+dependencies = [
+    "typer>=0.9.0",
+    "rich>=13.0.0",
+    "pyyaml>=6.0.0",
+    "requests>=2.0.0"
+]
+
+[project.scripts]
+trident = "trident.cli:main"
+veil = "veil.cli:main"
+
+[build-system]
+requires = [
+    "setuptools>=70.0",
+    "wheel",
+    "build"
+]
+build-backend = "setuptools.build_meta"
+
+# Critical: include trident and all its subpackages
+[tool.setuptools.packages.find]
+include = ["trident*", "veil*"]
+
+[project.urls]
+Homepage = "https://github.com/your-org/trident-cli"
+Source = "https://github.com/your-org/trident-cli"
+Issues = "https://github.com/your-org/trident-cli/issues"

@@ -1,0 +1,3 @@
+[console_scripts]
+trident = trident.cli:main
+veil = veil.cli:main
