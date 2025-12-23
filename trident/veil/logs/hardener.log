@@ -1,0 +1,184 @@
+[2025-12-23T03:09:59.725871+00:00] 🔱 Starting Veil Sentinel Hardening Pass
+[2025-12-23T03:09:59.726526+00:00] ── Phase 1: Ensuring package structure (__init__.py)
+[2025-12-23T03:09:59.736646+00:00] [WARN] Package root not found: C:\The Veil\trident\veil\app
+[2025-12-23T03:09:59.737165+00:00] [WARN] Package root not found: C:\The Veil\trident\veil\infra
+[2025-12-23T03:09:59.737588+00:00] ── Phase 2: Hardening core files from templates
+[2025-12-23T03:09:59.738011+00:00] [ERROR] Template not found: C:\The Veil\trident\veil\hardening_content\templates\app\main.py
+[2025-12-23T03:09:59.738361+00:00] [ERROR] Template not found: C:\The Veil\trident\veil\hardening_content\templates\app\core\metrics.py
+[2025-12-23T03:09:59.738733+00:00] [ERROR] Template not found: C:\The Veil\trident\veil\hardening_content\templates\app\api\auth_routes.py
+[2025-12-23T03:09:59.739347+00:00] [ERROR] Template not found: C:\The Veil\trident\veil\hardening_content\templates\infra\monitoring\prometheus-rules.yaml
+[2025-12-23T03:09:59.739687+00:00] [ERROR] Template not found: C:\The Veil\trident\veil\hardening_content\templates\infra\monitoring\grafana-dashboard.json
+[2025-12-23T03:09:59.740002+00:00] ── Phase 3: Hardening docs banners
+[2025-12-23T03:09:59.740342+00:00] [WARN] docs directory not found at C:\The Veil\trident\veil\docs
+[2025-12-23T03:09:59.740646+00:00] ── Phase 4: Hardening docs language (Updater → Hardener)
+[2025-12-23T03:09:59.741062+00:00] [WARN] docs directory not found at C:\The Veil\trident\veil\docs
+[2025-12-23T03:09:59.741424+00:00] ✅ Hardening complete
+[2025-12-23T03:10:38.310047+00:00] 🔱 Starting Veil Sentinel Hardening Pass
+[2025-12-23T03:10:38.335506+00:00] ── Phase 1: Ensuring package structure (__init__.py)
+[2025-12-23T03:10:38.342782+00:00] [WARN] Package root not found: C:\The Veil\trident\veil\app
+[2025-12-23T03:10:38.348640+00:00] [WARN] Package root not found: C:\The Veil\trident\veil\infra
+[2025-12-23T03:10:38.353807+00:00] ── Phase 2: Hardening core files from templates
+[2025-12-23T03:10:38.362686+00:00] [ERROR] Template not found: C:\The Veil\trident\veil\hardening_content\templates\app\main.py
+[2025-12-23T03:10:38.368326+00:00] [ERROR] Template not found: C:\The Veil\trident\veil\hardening_content\templates\app\core\metrics.py
+[2025-12-23T03:10:38.372827+00:00] [ERROR] Template not found: C:\The Veil\trident\veil\hardening_content\templates\app\api\auth_routes.py
+[2025-12-23T03:10:38.379017+00:00] [ERROR] Template not found: C:\The Veil\trident\veil\hardening_content\templates\infra\monitoring\prometheus-rules.yaml
+[2025-12-23T03:10:38.385066+00:00] [ERROR] Template not found: C:\The Veil\trident\veil\hardening_content\templates\infra\monitoring\grafana-dashboard.json
+[2025-12-23T03:10:38.390579+00:00] ── Phase 3: Hardening docs banners
+[2025-12-23T03:10:38.396266+00:00] [WARN] docs directory not found at C:\The Veil\trident\veil\docs
+[2025-12-23T03:10:38.401824+00:00] ── Phase 4: Hardening docs language (Updater → Hardener)
+[2025-12-23T03:10:38.410727+00:00] [WARN] docs directory not found at C:\The Veil\trident\veil\docs
+[2025-12-23T03:10:38.415554+00:00] ✅ Hardening complete
+[2025-12-23T03:12:41.775409+00:00] 🔱 Starting Veil Sentinel Hardening Pass
+[2025-12-23T03:12:41.776025+00:00] ── Phase 1: Ensuring package structure (__init__.py)
+[2025-12-23T03:12:41.777945+00:00] [WARN] Package root not found: C:\The Veil\trident\veil\app
+[2025-12-23T03:12:41.778349+00:00] [WARN] Package root not found: C:\The Veil\trident\veil\infra
+[2025-12-23T03:12:41.778693+00:00] ── Phase 2: Hardening core files from templates
+[2025-12-23T03:12:41.779113+00:00] [ERROR] Template not found: C:\The Veil\trident\veil\hardening_content\templates\app\main.py
+[2025-12-23T03:12:41.779538+00:00] [ERROR] Template not found: C:\The Veil\trident\veil\hardening_content\templates\app\core\metrics.py
+[2025-12-23T03:12:41.779952+00:00] [ERROR] Template not found: C:\The Veil\trident\veil\hardening_content\templates\app\api\auth_routes.py
+[2025-12-23T03:12:41.780326+00:00] [ERROR] Template not found: C:\The Veil\trident\veil\hardening_content\templates\infra\monitoring\prometheus-rules.yaml
+[2025-12-23T03:12:41.780733+00:00] [ERROR] Template not found: C:\The Veil\trident\veil\hardening_content\templates\infra\monitoring\grafana-dashboard.json
+[2025-12-23T03:12:41.781064+00:00] ── Phase 3: Hardening docs banners
+[2025-12-23T03:12:41.815876+00:00] [DIFF] Docs banner hardening: C:\The Veil\trident\veil\docs\architecture.md
+[2025-12-23T03:12:41.825307+00:00] [BACKUP] C:\The Veil\trident\veil\docs\architecture.md -> C:\The Veil\trident\veil\docs\architecture.md.bak
+[2025-12-23T03:12:41.826222+00:00] [WRITE] Banner-hardened C:\The Veil\trident\veil\docs\architecture.md
+[2025-12-23T03:12:41.827138+00:00] [DIFF] Docs banner hardening: C:\The Veil\trident\veil\docs\changelog.md
+[2025-12-23T03:12:41.828956+00:00] [BACKUP] C:\The Veil\trident\veil\docs\changelog.md -> C:\The Veil\trident\veil\docs\changelog.md.bak
+[2025-12-23T03:12:41.829881+00:00] [WRITE] Banner-hardened C:\The Veil\trident\veil\docs\changelog.md
+[2025-12-23T03:12:41.830754+00:00] [DIFF] Docs banner hardening: C:\The Veil\trident\veil\docs\cli-reference.md
+[2025-12-23T03:12:41.834760+00:00] [BACKUP] C:\The Veil\trident\veil\docs\cli-reference.md -> C:\The Veil\trident\veil\docs\cli-reference.md.bak
+[2025-12-23T03:12:41.835529+00:00] [WRITE] Banner-hardened C:\The Veil\trident\veil\docs\cli-reference.md
+[2025-12-23T03:12:41.836141+00:00] [DIFF] Docs banner hardening: C:\The Veil\trident\veil\docs\configuration.md
+[2025-12-23T03:12:41.837728+00:00] [BACKUP] C:\The Veil\trident\veil\docs\configuration.md -> C:\The Veil\trident\veil\docs\configuration.md.bak
+[2025-12-23T03:12:41.838502+00:00] [WRITE] Banner-hardened C:\The Veil\trident\veil\docs\configuration.md
+[2025-12-23T03:12:41.839167+00:00] [DIFF] Docs banner hardening: C:\The Veil\trident\veil\docs\contributing.md
+[2025-12-23T03:12:41.840531+00:00] [BACKUP] C:\The Veil\trident\veil\docs\contributing.md -> C:\The Veil\trident\veil\docs\contributing.md.bak
+[2025-12-23T03:12:41.841252+00:00] [WRITE] Banner-hardened C:\The Veil\trident\veil\docs\contributing.md
+[2025-12-23T03:12:41.842089+00:00] [DIFF] Docs banner hardening: C:\The Veil\trident\veil\docs\deployment.md
+[2025-12-23T03:12:41.843839+00:00] [BACKUP] C:\The Veil\trident\veil\docs\deployment.md -> C:\The Veil\trident\veil\docs\deployment.md.bak
+[2025-12-23T03:12:41.844645+00:00] [WRITE] Banner-hardened C:\The Veil\trident\veil\docs\deployment.md
+[2025-12-23T03:12:41.845552+00:00] [DIFF] Docs banner hardening: C:\The Veil\trident\veil\docs\development.md
+[2025-12-23T03:12:41.847068+00:00] [BACKUP] C:\The Veil\trident\veil\docs\development.md -> C:\The Veil\trident\veil\docs\development.md.bak
+[2025-12-23T03:12:41.849414+00:00] [WRITE] Banner-hardened C:\The Veil\trident\veil\docs\development.md
+[2025-12-23T03:12:41.850138+00:00] [DIFF] Docs banner hardening: C:\The Veil\trident\veil\docs\getting-started.md
+[2025-12-23T03:12:41.851521+00:00] [BACKUP] C:\The Veil\trident\veil\docs\getting-started.md -> C:\The Veil\trident\veil\docs\getting-started.md.bak
+[2025-12-23T03:12:41.852307+00:00] [WRITE] Banner-hardened C:\The Veil\trident\veil\docs\getting-started.md
+[2025-12-23T03:12:41.852953+00:00] [DIFF] Docs banner hardening: C:\The Veil\trident\veil\docs\glossary.md
+[2025-12-23T03:12:41.854310+00:00] [BACKUP] C:\The Veil\trident\veil\docs\glossary.md -> C:\The Veil\trident\veil\docs\glossary.md.bak
+[2025-12-23T03:12:41.854971+00:00] [WRITE] Banner-hardened C:\The Veil\trident\veil\docs\glossary.md
+[2025-12-23T03:12:41.855760+00:00] [DIFF] Docs banner hardening: C:\The Veil\trident\veil\docs\index.md
+[2025-12-23T03:12:41.857515+00:00] [BACKUP] C:\The Veil\trident\veil\docs\index.md -> C:\The Veil\trident\veil\docs\index.md.bak
+[2025-12-23T03:12:41.858307+00:00] [WRITE] Banner-hardened C:\The Veil\trident\veil\docs\index.md
+[2025-12-23T03:12:41.859111+00:00] [DIFF] Docs banner hardening: C:\The Veil\trident\veil\docs\license.md
+[2025-12-23T03:12:41.860568+00:00] [BACKUP] C:\The Veil\trident\veil\docs\license.md -> C:\The Veil\trident\veil\docs\license.md.bak
+[2025-12-23T03:12:41.861467+00:00] [WRITE] Banner-hardened C:\The Veil\trident\veil\docs\license.md
+[2025-12-23T03:12:41.862288+00:00] [DIFF] Docs banner hardening: C:\The Veil\trident\veil\docs\modules.md
+[2025-12-23T03:12:41.866500+00:00] [BACKUP] C:\The Veil\trident\veil\docs\modules.md -> C:\The Veil\trident\veil\docs\modules.md.bak
+[2025-12-23T03:12:41.867360+00:00] [WRITE] Banner-hardened C:\The Veil\trident\veil\docs\modules.md
+[2025-12-23T03:12:41.868093+00:00] [DIFF] Docs banner hardening: C:\The Veil\trident\veil\docs\rituals.md
+[2025-12-23T03:12:41.869958+00:00] [BACKUP] C:\The Veil\trident\veil\docs\rituals.md -> C:\The Veil\trident\veil\docs\rituals.md.bak
+[2025-12-23T03:12:41.870936+00:00] [WRITE] Banner-hardened C:\The Veil\trident\veil\docs\rituals.md
+[2025-12-23T03:12:41.871685+00:00] [DIFF] Docs banner hardening: C:\The Veil\trident\veil\docs\roadmap.md
+[2025-12-23T03:12:41.873606+00:00] [BACKUP] C:\The Veil\trident\veil\docs\roadmap.md -> C:\The Veil\trident\veil\docs\roadmap.md.bak
+[2025-12-23T03:12:41.874619+00:00] [WRITE] Banner-hardened C:\The Veil\trident\veil\docs\roadmap.md
+[2025-12-23T03:12:41.876184+00:00] [DIFF] Docs banner hardening: C:\The Veil\trident\veil\docs\security.md
+[2025-12-23T03:12:41.884765+00:00] [BACKUP] C:\The Veil\trident\veil\docs\security.md -> C:\The Veil\trident\veil\docs\security.md.bak
+[2025-12-23T03:12:41.885858+00:00] [WRITE] Banner-hardened C:\The Veil\trident\veil\docs\security.md
+[2025-12-23T03:12:41.886739+00:00] [DIFF] Docs banner hardening: C:\The Veil\trident\veil\docs\troubleshooting.md
+[2025-12-23T03:12:41.888940+00:00] [BACKUP] C:\The Veil\trident\veil\docs\troubleshooting.md -> C:\The Veil\trident\veil\docs\troubleshooting.md.bak
+[2025-12-23T03:12:41.889935+00:00] [WRITE] Banner-hardened C:\The Veil\trident\veil\docs\troubleshooting.md
+[2025-12-23T03:12:41.890670+00:00] [DIFF] Docs banner hardening: C:\The Veil\trident\veil\docs\_config.yml
+[2025-12-23T03:12:41.892699+00:00] [BACKUP] C:\The Veil\trident\veil\docs\_config.yml -> C:\The Veil\trident\veil\docs\_config.yml.bak
+[2025-12-23T03:12:41.897537+00:00] [WRITE] Banner-hardened C:\The Veil\trident\veil\docs\_config.yml
+[2025-12-23T03:12:41.899327+00:00] [DIFF] Docs banner hardening: C:\The Veil\trident\veil\docs\_includes\sidebar.html
+[2025-12-23T03:12:41.901267+00:00] [BACKUP] C:\The Veil\trident\veil\docs\_includes\sidebar.html -> C:\The Veil\trident\veil\docs\_includes\sidebar.html.bak
+[2025-12-23T03:12:41.901982+00:00] [WRITE] Banner-hardened C:\The Veil\trident\veil\docs\_includes\sidebar.html
+[2025-12-23T03:12:41.902817+00:00] [DIFF] Docs banner hardening: C:\The Veil\trident\veil\docs\_layouts\default.html
+[2025-12-23T03:12:41.904777+00:00] [BACKUP] C:\The Veil\trident\veil\docs\_layouts\default.html -> C:\The Veil\trident\veil\docs\_layouts\default.html.bak
+[2025-12-23T03:12:41.905798+00:00] [WRITE] Banner-hardened C:\The Veil\trident\veil\docs\_layouts\default.html
+[2025-12-23T03:12:41.906772+00:00] [DIFF] Docs banner hardening: C:\The Veil\trident\veil\docs\assets\css\custom.css
+[2025-12-23T03:12:41.909006+00:00] [BACKUP] C:\The Veil\trident\veil\docs\assets\css\custom.css -> C:\The Veil\trident\veil\docs\assets\css\custom.css.bak
+[2025-12-23T03:12:41.910976+00:00] [WRITE] Banner-hardened C:\The Veil\trident\veil\docs\assets\css\custom.css
+[2025-12-23T03:12:41.911658+00:00] ── Phase 4: Hardening docs language (Updater → Hardener)
+[2025-12-23T03:12:41.923588+00:00] [DIFF] Docs language hardening: C:\The Veil\trident\veil\docs\architecture.md
+[2025-12-23T03:12:41.926800+00:00] [WRITE] Language-hardened C:\The Veil\trident\veil\docs\architecture.md
+[2025-12-23T03:12:41.937449+00:00] [DIFF] Docs language hardening: C:\The Veil\trident\veil\docs\changelog.md
+[2025-12-23T03:12:41.939262+00:00] [WRITE] Language-hardened C:\The Veil\trident\veil\docs\changelog.md
+[2025-12-23T03:12:41.950504+00:00] [DIFF] Docs language hardening: C:\The Veil\trident\veil\docs\cli-reference.md
+[2025-12-23T03:12:41.952284+00:00] [WRITE] Language-hardened C:\The Veil\trident\veil\docs\cli-reference.md
+[2025-12-23T03:12:41.963398+00:00] [SKIP] C:\The Veil\trident\veil\docs\configuration.md: no language changes
+[2025-12-23T03:12:41.977274+00:00] [SKIP] C:\The Veil\trident\veil\docs\contributing.md: no language changes
+[2025-12-23T03:12:41.988049+00:00] [SKIP] C:\The Veil\trident\veil\docs\deployment.md: no language changes
+[2025-12-23T03:12:41.998334+00:00] [SKIP] C:\The Veil\trident\veil\docs\development.md: no language changes
+[2025-12-23T03:12:42.007462+00:00] [SKIP] C:\The Veil\trident\veil\docs\getting-started.md: no language changes
+[2025-12-23T03:12:42.016532+00:00] [SKIP] C:\The Veil\trident\veil\docs\glossary.md: no language changes
+[2025-12-23T03:12:42.026449+00:00] [DIFF] Docs language hardening: C:\The Veil\trident\veil\docs\index.md
+[2025-12-23T03:12:42.028197+00:00] [WRITE] Language-hardened C:\The Veil\trident\veil\docs\index.md
+[2025-12-23T03:12:42.054219+00:00] [SKIP] C:\The Veil\trident\veil\docs\license.md: no language changes
+[2025-12-23T03:12:42.065470+00:00] [DIFF] Docs language hardening: C:\The Veil\trident\veil\docs\modules.md
+[2025-12-23T03:12:42.066758+00:00] [WRITE] Language-hardened C:\The Veil\trident\veil\docs\modules.md
+[2025-12-23T03:12:42.075041+00:00] [SKIP] C:\The Veil\trident\veil\docs\rituals.md: no language changes
+[2025-12-23T03:12:42.084213+00:00] [SKIP] C:\The Veil\trident\veil\docs\roadmap.md: no language changes
+[2025-12-23T03:12:42.093690+00:00] [SKIP] C:\The Veil\trident\veil\docs\security.md: no language changes
+[2025-12-23T03:12:42.103620+00:00] [SKIP] C:\The Veil\trident\veil\docs\troubleshooting.md: no language changes
+[2025-12-23T03:12:42.113046+00:00] [SKIP] C:\The Veil\trident\veil\docs\_config.yml: no language changes
+[2025-12-23T03:12:42.123353+00:00] [SKIP] C:\The Veil\trident\veil\docs\_includes\sidebar.html: no language changes
+[2025-12-23T03:12:42.133476+00:00] [SKIP] C:\The Veil\trident\veil\docs\_layouts\default.html: no language changes
+[2025-12-23T03:12:42.135186+00:00] [SKIP] C:\The Veil\trident\veil\docs\assets\css\custom.css: no language changes
+[2025-12-23T03:12:42.135753+00:00] ✅ Hardening complete
+[2025-12-23T03:12:55.362375+00:00] 🔱 Starting Veil Sentinel Hardening Pass
+[2025-12-23T03:12:55.372350+00:00] ── Phase 1: Ensuring package structure (__init__.py)
+[2025-12-23T03:12:55.377721+00:00] [WARN] Package root not found: C:\The Veil\trident\veil\app
+[2025-12-23T03:12:55.383260+00:00] [WARN] Package root not found: C:\The Veil\trident\veil\infra
+[2025-12-23T03:12:55.387369+00:00] ── Phase 2: Hardening core files from templates
+[2025-12-23T03:12:55.392444+00:00] [ERROR] Template not found: C:\The Veil\trident\veil\hardening_content\templates\app\main.py
+[2025-12-23T03:12:55.399444+00:00] [ERROR] Template not found: C:\The Veil\trident\veil\hardening_content\templates\app\core\metrics.py
+[2025-12-23T03:12:55.406152+00:00] [ERROR] Template not found: C:\The Veil\trident\veil\hardening_content\templates\app\api\auth_routes.py
+[2025-12-23T03:12:55.413031+00:00] [ERROR] Template not found: C:\The Veil\trident\veil\hardening_content\templates\infra\monitoring\prometheus-rules.yaml
+[2025-12-23T03:12:55.419706+00:00] [ERROR] Template not found: C:\The Veil\trident\veil\hardening_content\templates\infra\monitoring\grafana-dashboard.json
+[2025-12-23T03:12:55.432505+00:00] ── Phase 3: Hardening docs banners
+[2025-12-23T03:12:55.502510+00:00] [SKIP] C:\The Veil\trident\veil\docs\architecture.md: already banner-hardened
+[2025-12-23T03:12:55.588339+00:00] [SKIP] C:\The Veil\trident\veil\docs\changelog.md: already banner-hardened
+[2025-12-23T03:12:55.617830+00:00] [SKIP] C:\The Veil\trident\veil\docs\cli-reference.md: already banner-hardened
+[2025-12-23T03:12:55.630499+00:00] [SKIP] C:\The Veil\trident\veil\docs\configuration.md: already banner-hardened
+[2025-12-23T03:12:55.640479+00:00] [SKIP] C:\The Veil\trident\veil\docs\contributing.md: already banner-hardened
+[2025-12-23T03:12:55.650882+00:00] [SKIP] C:\The Veil\trident\veil\docs\deployment.md: already banner-hardened
+[2025-12-23T03:12:55.660973+00:00] [SKIP] C:\The Veil\trident\veil\docs\development.md: already banner-hardened
+[2025-12-23T03:12:55.671827+00:00] [SKIP] C:\The Veil\trident\veil\docs\getting-started.md: already banner-hardened
+[2025-12-23T03:12:55.682411+00:00] [SKIP] C:\The Veil\trident\veil\docs\glossary.md: already banner-hardened
+[2025-12-23T03:12:55.700586+00:00] [SKIP] C:\The Veil\trident\veil\docs\index.md: already banner-hardened
+[2025-12-23T03:12:55.711196+00:00] [SKIP] C:\The Veil\trident\veil\docs\license.md: already banner-hardened
+[2025-12-23T03:12:55.727891+00:00] [SKIP] C:\The Veil\trident\veil\docs\modules.md: already banner-hardened
+[2025-12-23T03:12:55.739510+00:00] [SKIP] C:\The Veil\trident\veil\docs\rituals.md: already banner-hardened
+[2025-12-23T03:12:55.749471+00:00] [SKIP] C:\The Veil\trident\veil\docs\roadmap.md: already banner-hardened
+[2025-12-23T03:12:55.760365+00:00] [SKIP] C:\The Veil\trident\veil\docs\security.md: already banner-hardened
+[2025-12-23T03:12:55.771524+00:00] [SKIP] C:\The Veil\trident\veil\docs\troubleshooting.md: already banner-hardened
+[2025-12-23T03:12:55.782156+00:00] [SKIP] C:\The Veil\trident\veil\docs\_config.yml: already banner-hardened
+[2025-12-23T03:12:55.792524+00:00] [SKIP] C:\The Veil\trident\veil\docs\_includes\sidebar.html: already banner-hardened
+[2025-12-23T03:12:55.806660+00:00] [SKIP] C:\The Veil\trident\veil\docs\_layouts\default.html: already banner-hardened
+[2025-12-23T03:12:55.820701+00:00] [SKIP] C:\The Veil\trident\veil\docs\assets\css\custom.css: already banner-hardened
+[2025-12-23T03:12:55.834679+00:00] ── Phase 4: Hardening docs language (Updater → Hardener)
+[2025-12-23T03:12:55.844831+00:00] [SKIP] C:\The Veil\trident\veil\docs\architecture.md: no language changes
+[2025-12-23T03:12:55.864158+00:00] [SKIP] C:\The Veil\trident\veil\docs\changelog.md: no language changes
+[2025-12-23T03:12:55.888108+00:00] [SKIP] C:\The Veil\trident\veil\docs\cli-reference.md: no language changes
+[2025-12-23T03:12:55.912582+00:00] [SKIP] C:\The Veil\trident\veil\docs\configuration.md: no language changes
+[2025-12-23T03:12:55.936667+00:00] [SKIP] C:\The Veil\trident\veil\docs\contributing.md: no language changes
+[2025-12-23T03:12:55.959932+00:00] [SKIP] C:\The Veil\trident\veil\docs\deployment.md: no language changes
+[2025-12-23T03:12:55.977487+00:00] [SKIP] C:\The Veil\trident\veil\docs\development.md: no language changes
+[2025-12-23T03:12:55.988357+00:00] [SKIP] C:\The Veil\trident\veil\docs\getting-started.md: no language changes
+[2025-12-23T03:12:55.996325+00:00] [SKIP] C:\The Veil\trident\veil\docs\glossary.md: no language changes
+[2025-12-23T03:12:56.003749+00:00] [SKIP] C:\The Veil\trident\veil\docs\index.md: no language changes
+[2025-12-23T03:12:56.011512+00:00] [SKIP] C:\The Veil\trident\veil\docs\license.md: no language changes
+[2025-12-23T03:12:56.018761+00:00] [SKIP] C:\The Veil\trident\veil\docs\modules.md: no language changes
+[2025-12-23T03:12:56.026435+00:00] [SKIP] C:\The Veil\trident\veil\docs\rituals.md: no language changes
+[2025-12-23T03:12:56.035642+00:00] [SKIP] C:\The Veil\trident\veil\docs\roadmap.md: no language changes
+[2025-12-23T03:12:56.048518+00:00] [SKIP] C:\The Veil\trident\veil\docs\security.md: no language changes
+[2025-12-23T03:12:56.063774+00:00] [SKIP] C:\The Veil\trident\veil\docs\troubleshooting.md: no language changes
+[2025-12-23T03:12:56.075678+00:00] [SKIP] C:\The Veil\trident\veil\docs\_config.yml: no language changes
+[2025-12-23T03:12:56.090253+00:00] [SKIP] C:\The Veil\trident\veil\docs\_includes\sidebar.html: no language changes
+[2025-12-23T03:12:56.103939+00:00] [SKIP] C:\The Veil\trident\veil\docs\_layouts\default.html: no language changes
+[2025-12-23T03:12:56.118516+00:00] [SKIP] C:\The Veil\trident\veil\docs\assets\css\custom.css: no language changes
+[2025-12-23T03:12:56.134408+00:00] ✅ Hardening complete
+[2025-12-23T03:49:25.441163+00:00] 🔱 Starting Veil Sentinel Hardening Pass
+[2025-12-23T03:49:25.450812+00:00] ── Phase 1: Ensuring package structure (__init__.py)
+[2025-12-23T03:49:25.459888+00:00] ── Phase 2: Hardening core files from templates

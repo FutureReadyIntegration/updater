@@ -1,3 +1,6 @@
+# updater
+Trident
+=======
 # Trident 🔱™ ©  
 A sovereign, modular CLI platform for diagnostics, identity, repair, and deterministic hardening.  
 Built for clarity, reproducibility, and operational excellence.  
@@ -45,4 +48,4 @@ docker run --rm \
   -v "/path/to/project":/target \
   trident-updater \
   --target /target --dry-run
-#Initial release: GrafanaNetes Sentinel v1.0.0
+(Initial release: GrafanaNetes Sentinel v1.0.0)

@@ -1,6 +1,6 @@
 [project]
 name = "trident-cli"
-version = "1.0.0"
+version = "1.0.1"
 description = "Sovereign Kubernetes repair, diagnostics, and identity CLI."
 readme = "README.md"
 license = { file = "LICENSE.md" }
@@ -17,7 +17,7 @@ dependencies = [
 ]
 
 [project.scripts]
-trident = "trident.cli:main"
+trident = "veil.cli:main"
 veil = "veil.cli:main"
 
 [build-system]
