@@ -1,0 +1,29 @@
+
+---
+
+# 🤝 **`contributing.md`**
+
+```markdown
+# Contributing 🔱  
+### How to Contribute to the Trident Ecosystem
+
+We welcome contributions aligned with Trident’s sovereign, deterministic philosophy.
+
+---
+
+## 🔱 Contribution Areas
+
+- Modules  
+- Rituals  
+- CLI enhancements  
+- Documentation  
+- Bug fixes  
+
+---
+
+## 🔱 Workflow
+
+1. Fork the repo  
+2. Create a feature branch  
+3. Submit a PR  
+4. Pass CI checks  

@@ -1,0 +1,23 @@
+# Configuration 🔱  
+### How Trident Stores, Loads, and Applies Settings
+
+Trident uses a layered configuration model.
+
+---
+
+## 🔱 Configuration Sources
+
+1. **Global Config** — `~/.trident/config.yml`  
+2. **Project Config** — `.trident/config.yml`  
+3. **Environment Variables**  
+4. **Runtime Flags**  
+
+---
+
+## 🔱 View Current Configuration
+
+```bash
+trident config show
+
+trident config set <key> <value>
+
