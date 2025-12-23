@@ -1,0 +1,104 @@
+/* ------------------------------
+   TRIDENT / THE VEIL PALETTE
+   ------------------------------ */
+
+:root {
+  --abyss: #0A1A2F;
+  --cyan: #00C7D9;
+  --gold: #D9A441;
+  --obsidian: #0D0D0D;
+  --graphite: #1F1F1F;
+  --fog: #E6E6E6;
+  --steel: #9AA0A6;
+
+  --ember: #FF6A3D;
+  --verdant: #3DD98C;
+  --lumen: #4DA3FF;
+  --midnight: #05080C;
+}
+
+/* ------------------------------
+   GLOBAL BACKGROUND + TEXT
+   ------------------------------ */
+
+body {
+  background: var(--obsidian) !important;
+  color: var(--fog) !important;
+  font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+/* ------------------------------
+   HEADINGS
+   ------------------------------ */
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--cyan) !important;
+  font-weight: 600;
+}
+
+/* ------------------------------
+   LINKS
+   ------------------------------ */
+
+a {
+  color: var(--cyan) !important;
+}
+
+a:hover {
+  color: var(--gold) !important;
+}
+
+/* ------------------------------
+   CODE BLOCKS
+   ------------------------------ */
+
+pre, code {
+  background-color: var(--abyss) !important;
+  color: var(--fog) !important;
+  border-radius: 6px;
+  padding: 4px 6px;
+}
+
+/* ------------------------------
+   SIDEBAR / NAV (minima theme)
+   ------------------------------ */
+
+.site-header,
+.site-footer,
+.site-nav {
+  background: var(--graphite) !important;
+  color: var(--fog) !important;
+}
+
+.site-title, .site-title:visited {
+  color: var(--cyan) !important;
+}
+
+/* ------------------------------
+   BLOCKQUOTES / CALLOUTS
+   ------------------------------ */
+
+blockquote {
+  border-left: 4px solid var(--gold) !important;
+  background: var(--graphite);
+  padding: 10px 16px;
+  color: var(--fog);
+}
+
+/* ------------------------------
+   TABLES
+   ------------------------------ */
+
+table {
+  background: var(--graphite);
+  color: var(--fog);
+}
+
+th {
+  background: var(--abyss);
+  color: var(--fog);
+}
+
+td {
+  border-color: var(--steel);
+}
