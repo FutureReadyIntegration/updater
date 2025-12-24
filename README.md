@@ -1,5 +1,4 @@
 # updater
-Trident
 =======
 # Trident 🔱™ ©  
 A sovereign, modular CLI platform for diagnostics, identity, repair, and deterministic hardening.  
